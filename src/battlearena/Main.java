@@ -5,6 +5,6 @@ public class Main {
 
         System.out.println("Welcome to Battle Arena!");
 
-        System.out.println();
+        System.out.println("test");
     }
 }
