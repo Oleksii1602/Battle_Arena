@@ -15,6 +15,6 @@ public class Archer extends Character {
 
     @Override
     public String getCharacterType() {
-        return "Rogue";
+        return "Archer";
     }
 }
