@@ -27,7 +27,7 @@ public class Warrior extends Character {
     @Override
     public String useSpecialAbility(Character target) {
         this.shieldActive = true;
-        return getName() + " aktiverar Shield Block! Nästa inkommande skada halveras.";
+        return getName() + " activated Shield Block. Next incoming attack will have its damage halved.";
     }
 
     @Override

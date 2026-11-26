@@ -10,7 +10,7 @@ public class Archer extends Character {
     public String useSpecialAbility(Character target) {
         int bowDamage = 22;
         int damageDone = target.takeDamage(bowDamage);
-        return getName() + " utför Backstab och gör " + damageDone + " kritisk skada på " + target.getName() + "!";
+        return getName() + " uses Backstab and deals " + damageDone + " critical damage on " + target.getName() + "!";
     }
 
     @Override

@@ -19,7 +19,7 @@ public class Client {
             out.println(result.toFileLine());
             return !out.checkError();
         } catch (IOException e) {
-            System.out.println("Kunde inte skicka matchresultatet: " + e.getMessage());
+            System.out.println("Could not send the match results: " + e.getMessage());
             return false;
         }
     }

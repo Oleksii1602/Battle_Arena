@@ -12,7 +12,7 @@ public class Mage extends Character {
         int oldHp = getHp();
         heal(healAmount);
         int actualHeal = getHp() - oldHp;
-        return getName() + " kastar Heal Spell och återfår " + actualHeal + " HP!";
+        return getName() + " casts heal and gets " + actualHeal + " HP!";
     }
 
     @Override
